@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Google Clone</title>
     <!-- CONEXIÓN DE CSS href (¿dónde está tu archivo?)-->
-    <link rel="stylesheet" href="/main/main.css">
+    <link rel="stylesheet" href="main.css">
 </head>
+
 <!-- body - sección html que el usuarix ve -->
 <body>
     <!-- SECCIONES: HEADER, MAIN Y FOOTER -->
@@ -17,13 +18,14 @@
             <!-- LISTA NO ORDENADA -->
             <ul class="nav-right-section">
                 <li>
-                    <a href="">Gmail</a>
+                    <a href=""> Gmail </a>
                 </li>
                 <li>
-                    <a href="">Imágenes</a>
+                    <a href=""> Imágenes </a>
                 </li>
                 <li class="Menu">
-                    <a href=""></a>
+                    <a href=""> <img src="/imagenes/puntitos.png" alt="puntitos"> </a>
+                    
                 </li>
                 <li>
                     <a href="">
@@ -34,31 +36,61 @@
 
         </nav>
     </header>
+
     <!-- MAIN - división sección más importante -->
     <main>
         <!-- SECTION - una divisón y es más importante (linguísticamente) que div -->
         <section class="main-logo">
-            <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Logo de Google">
+            <img src="/imagenes/googlelogo_color_272x92dp.png" alt="Logo de Google">
         </section>
+
         <!-- buscador - input -->
         <section class="main-input">
             <div class="main-input-container">
+
             <!--SPAN-lupa-->
-            <span class="serch-icon"></span>
+            <span class="serch-icon"> </span>
+
             <!--INPUT (texto)-->
-            <input tvpe="text">
+            <input type="text"> 
+
+            <!--Microfono-->
             <a class="micro-icon" href=""></a>
-                <img src="/imagenes/microfono.png" alt="Microfono">
+        
+            <!--Camara -->
             <a class="cam-icon" href=""></a>
+        
             </div>
         </section>
-        <!--Botones-->
-        <section class="algo">
-            <div>
-                <button></button>
-            </div>
 
+        <!--Botones-->
+        <section class="buscgoogle">
+            <div>
+                <button class="buscar"> Buscar en Google </button>
+                <button class="suerte"> Voy a tener suerte </button>               
+            </div>
         </section>
     </main>
+
+    <!--FOOTER -->
+    <footer>
+        <section class="secMexico">
+            <ul class="mexico"> México </ul>
+        </section>
+
+        <section class="secbaja">
+            <ul class="secinf">
+                <li class="secinfizq"> <a> Sobre Google </a> </li>
+                <li class="secinfizq"> <a> Publicidad </a> </li>
+                <li class="secinfizq"> <a> Negocios </a> </li>
+                <li class="secinfizq"> <a> Como funciona la Búsqueda </a> </li>
+
+                <li class="secinfder"> <a> Privacidad </a> </li>
+                <li class="secinfder"> <a> Condiciones </a> </li>
+                <li class="secinfder"> <a> Preferencias </a> </li>
+            </ul>
+        </section>
+    </footer>
+    
 </body>
 </html>
